@@ -1,0 +1,8 @@
+Teori 5.2
+
+
+A) Innkapsling er å samle deler av koden i et "skall", der vi bare har grensesnitt vi trenger å benytte for å nå det som er inne i skallet. Feks ratt, pedaler, håndbrekk i en bil for å kjøre. Der vi ikke har tilgang eller kunnskap om motoren eller det under panseret i bilen. Sånn er det også med innkapsling i klasser for objekter.
+
+B) Grensesnittet er de metodene i en klasse som er satt til public, og som kan nååes fra utsiden av klassen. Implementasjonen er det som er inne i metodene, som sørger for at metoden gjør det vi vil. 
+
+C) En instansemetode er ikke statisk og lever sitt eget liv for hvert nytt objekt som blir opprettet av den klassen. Det er mulig å sette en variabel til statisk i en instanse med static modifisereren. Det er nyttig ved feks fakturanr som må være konstant +1 pr. faktura, mens resten av fakturaen tilpasses. Vanlig statisk metode gjør det den blir bedt om med samme variabler når den kjøres og det er det. 

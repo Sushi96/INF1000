@@ -1,0 +1,28 @@
+Oppgave 2
+
+a)
+Kompileringsfeil er feil som oppstår når man kompilerer java programmet med javac.
+Typiske kompileringsfeil kan være en glemt parantes, skrivefeil eller andre menneskelige
+feil som ofte forekommer når man skriver.
+
+Kjørefeil er feil som blir skrevet ut av java når programmet kjøres, altså etter at det
+er kompilert. Det er feil som har en ok syntax for javac, men som ikke gir mening i det
+man feks får input fra bruker.
+
+b)
+
+1. Siden det er en kompileringsfeil vil jeg forholde meg til første feilmelding.
+De andre kan være resultat av denne. Jeg ser først på linjenummeret. Linje 1. Og tenker
+hva typiske feil så tidlig i programmet kan være, mens jeg ser på grunnen oppgitt.
+Den forventer en class, interface eller enum. Jeg ser i koden at class er skrevet med 
+stor C. Jeg retter dette, og prøver å kompilere på nytt før jeg se på andre errors.
+
+2. Den andre feilmeldingen kommer som en kjedereaksjon på error nr.1. Det er fordi javac
+har videre prøvd å forstå programmet som tenkt videre med syntax feil, men den tar feil av hvordan det er ment.
+
+3. Her ser jeg at det dreier seg om linje 3, og at den forventer ";". Det er også markert
+hvor på linje 3 det er forventet.
+
+4. Jeg ser igjen på linje først. Det treier seg om linje 3. Deretter ser jeg at den ikke
+finner "package system", selv om jeg ikke vet nøyaktig hva det betyr, skjønner jeg at
+det er fordi det mangler en stor bokstav i System.

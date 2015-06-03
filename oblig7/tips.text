@@ -1,0 +1,7 @@
+charAt(int i)  henter ut bokstav på plass. "Hei".charAt(1) = e
+startsWith(String s)  "Hei".startsWith(a)  = false
+substring(int start, int end)  start-end = ord lengde
+
+PrintWriter pw = new PrintWriter(minFil)
+pw.println("Oblig 7");
+pw.close();
